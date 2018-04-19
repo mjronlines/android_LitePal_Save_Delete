@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/Daylv"
+        android:layout_width="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="top|left"
+        android:textCursorDrawable="@null"
+
+        android:ems="10"
+        android:hint="输入内容"
+        android:inputType="text|textPersonName|textMultiLine"
+        android:text="" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveOnce"
+        android:text="保存 一条数据" />
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="selectAll"-->
+        <!--android:text="查询全部数据" />-->
+
+
+</LinearLayout>
